@@ -88,4 +88,48 @@ public class Star {
             System.out.println();
         }
     }
+
+    public static void method8() {
+        int left = 4;
+        int right = 3;
+
+        for (int i = 5; i > 0; i--) {
+            if (i == 5) {
+                System.out.println("    *    ");
+            } else {
+                for (int j = 4; j > 0; j--) {
+                    if (j > left) {
+                        System.out.print(" ");
+                    } else {
+                        System.out.print("*");
+                    }
+                    left--;
+                }
+                for (int j = 1; j < 4; j++) {
+                    if (j == right) {
+                        System.out.print(" ");
+                    } else {
+                        System.out.print("*");
+                    }
+                    right++;
+                }
+                System.out.println();
+
+            }
+        }
+    }
+
+
+    public static void method9() {
+        for (int i = 0; i < 5; i++) {
+            for (int j = 0; j < 5; j++) {
+
+            }
+        }
+    }
+
+
+    public static void method10() {
+
+    }
 }

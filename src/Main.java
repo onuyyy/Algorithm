@@ -19,5 +19,7 @@ public class Main {
         method6();
         System.out.println("method 7");
         method7();
+        System.out.println("method 8");
+        method8();
     }
 }
