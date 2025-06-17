@@ -37,23 +37,21 @@ public class Star {
 
     public static void method4() {
         int left = 0;
-        int right = 5;
+        int right = 4;
         for (int i = 0; i < 5; i++) {
             for (int j = 0; j < 5; j++) {
-                if (left == j) {
+                if (i == 2 && left == right) {
+                    System.out.print("  *  ");
+                    break;
+                } else if (left == j) {
+                    System.out.print("*");
+                } else if (right == j) {
                     System.out.print("*");
                 } else {
                     System.out.print(" ");
                 }
             }
             left++;
-            for (int j = 5; j >= right; j--) {
-                if (right == j) {
-                    System.out.print("*");
-                } else {
-                    System.out.print(" ");
-                }
-            }
             right--;
             System.out.println();
         }
