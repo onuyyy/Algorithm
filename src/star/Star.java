@@ -1,6 +1,26 @@
 package star;
 
 public class Star {
+    public static void main(String[] args) {
+
+        System.out.println("method 1");
+        method1();
+        System.out.println("method 2");
+        method2();
+        System.out.println("method 3");
+        method3();
+        System.out.println("method 4");
+        method4();
+        System.out.println("method 5");
+        method5();
+        System.out.println("method 6");
+        method6();
+        System.out.println("method 7");
+        method7();
+        System.out.println("method 8");
+        method8();
+    }
+
     public static void method1() {
         int star = 5;
 
