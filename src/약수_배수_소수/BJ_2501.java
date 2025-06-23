@@ -17,7 +17,7 @@ public class BJ_2501 {
         for (int i = 1; i <= N; i++) {
             if (N % i == 0) {
                 cnt++;
-                
+
                 if (cnt == K) {
                     System.out.println(i);
                     break;
