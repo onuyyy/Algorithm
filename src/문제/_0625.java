@@ -138,12 +138,12 @@ class Card {
         this.number = number;
     }
 
-    public String toString() {
-        String[] kinds = {"", "CLOVER", "HEART", "DIAMOND", "SPADE"};
-        String numbers = "0123456789XJQK"; // 숫자 10은 X로 표현
-
-        return "kind : " + kinds[this.kind] + ", number : " + numbers.charAt(this.number);
-    }
+//    public String toString() {
+//        String[] kinds = {"", "CLOVER", "HEART", "DIAMOND", "SPADE"};
+//        String numbers = "0123456789XJQK"; // 숫자 10은 X로 표현
+//
+//        return "kind : " + kinds[this.kind] + ", number : " + numbers.charAt(this.number);
+//    }
 
     public String getKind() {
         String[] kinds = {"", "CLOVER", "HEART", "DIAMOND", "SPADE"};
